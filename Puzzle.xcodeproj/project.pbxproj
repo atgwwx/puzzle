@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3B1537419CD4E5400FFF4F7 /* LatticeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1537319CD4E5400FFF4F7 /* LatticeModel.m */; };
+		A3B1537719CE789400FFF4F7 /* LatticeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1537619CE789400FFF4F7 /* LatticeImageView.m */; };
+		A3B1537919CEB1CF00FFF4F7 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B1537819CEB1CF00FFF4F7 /* pic2.png */; };
+		A3B1537B19CEB1EB00FFF4F7 /* pic3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B1537A19CEB1EB00FFF4F7 /* pic3.png */; };
+		A3B1537D19CEB1F300FFF4F7 /* pic4.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B1537C19CEB1F300FFF4F7 /* pic4.png */; };
+		A3B2C65C19C7155A007198C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2C65B19C7155A007198C4 /* Foundation.framework */; };
+		A3B2C65E19C7155A007198C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2C65D19C7155A007198C4 /* CoreGraphics.framework */; };
+		A3B2C66019C7155A007198C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2C65F19C7155A007198C4 /* UIKit.framework */; };
+		A3B2C66619C7155A007198C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C66419C7155A007198C4 /* InfoPlist.strings */; };
+		A3B2C66819C7155A007198C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C66719C7155A007198C4 /* main.m */; };
+		A3B2C66C19C7155A007198C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C66B19C7155A007198C4 /* AppDelegate.m */; };
+		A3B2C66F19C7155A007198C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C66D19C7155A007198C4 /* Main.storyboard */; };
+		A3B2C67219C7155A007198C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C67119C7155A007198C4 /* ViewController.m */; };
+		A3B2C67419C7155A007198C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C67319C7155A007198C4 /* Images.xcassets */; };
+		A3B2C67B19C7155A007198C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2C67A19C7155A007198C4 /* XCTest.framework */; };
+		A3B2C67C19C7155A007198C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2C65B19C7155A007198C4 /* Foundation.framework */; };
+		A3B2C67D19C7155A007198C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2C65F19C7155A007198C4 /* UIKit.framework */; };
+		A3B2C68519C7155A007198C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C68319C7155A007198C4 /* InfoPlist.strings */; };
+		A3B2C68719C7155A007198C4 /* PuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C68619C7155A007198C4 /* PuzzleTests.m */; };
+		A3B2C69219C74491007198C4 /* BoardIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C69119C74491007198C4 /* BoardIViewController.m */; };
+		A3B2C69419C74750007198C4 /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C69319C74750007198C4 /* dd.png */; };
+		A3B2C69719C89856007198C4 /* ImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C69619C89856007198C4 /* ImageBrowserViewController.m */; };
+		A3B2C69919CB3F55007198C4 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C69819CB3F55007198C4 /* pic1.png */; };
+		F0A69FA45E7C47D897168065 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96666B77CF8440E2B1499952 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3B2C67E19C7155A007198C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B2C65019C7155A007198C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B2C65719C7155A007198C4;
+			remoteInfo = Puzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		432FBF389E2B44D793620087 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		96666B77CF8440E2B1499952 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B1537219CD4E5400FFF4F7 /* LatticeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatticeModel.h; sourceTree = "<group>"; };
+		A3B1537319CD4E5400FFF4F7 /* LatticeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatticeModel.m; sourceTree = "<group>"; };
+		A3B1537519CE789400FFF4F7 /* LatticeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatticeImageView.h; sourceTree = "<group>"; };
+		A3B1537619CE789400FFF4F7 /* LatticeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatticeImageView.m; sourceTree = "<group>"; };
+		A3B1537819CEB1CF00FFF4F7 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
+		A3B1537A19CEB1EB00FFF4F7 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic3.png; sourceTree = "<group>"; };
+		A3B1537C19CEB1F300FFF4F7 /* pic4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic4.png; sourceTree = "<group>"; };
+		A3B1537E19CECD4B00FFF4F7 /* HomeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDelegate.h; sourceTree = "<group>"; };
+		A3B2C65819C7155A007198C4 /* Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B2C65B19C7155A007198C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3B2C65D19C7155A007198C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3B2C65F19C7155A007198C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3B2C66319C7155A007198C4 /* Puzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle-Info.plist"; sourceTree = "<group>"; };
+		A3B2C66519C7155A007198C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3B2C66719C7155A007198C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B2C66919C7155A007198C4 /* Puzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzle-Prefix.pch"; sourceTree = "<group>"; };
+		A3B2C66A19C7155A007198C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B2C66B19C7155A007198C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3B2C66E19C7155A007198C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3B2C67019C7155A007198C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3B2C67119C7155A007198C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3B2C67319C7155A007198C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3B2C67919C7155A007198C4 /* PuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B2C67A19C7155A007198C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A3B2C68219C7155A007198C4 /* PuzzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuzzleTests-Info.plist"; sourceTree = "<group>"; };
+		A3B2C68419C7155A007198C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3B2C68619C7155A007198C4 /* PuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleTests.m; sourceTree = "<group>"; };
+		A3B2C69019C74491007198C4 /* BoardIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardIViewController.h; sourceTree = "<group>"; };
+		A3B2C69119C74491007198C4 /* BoardIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardIViewController.m; sourceTree = "<group>"; };
+		A3B2C69319C74750007198C4 /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd.png; sourceTree = "<group>"; };
+		A3B2C69519C89856007198C4 /* ImageBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowserViewController.h; sourceTree = "<group>"; };
+		A3B2C69619C89856007198C4 /* ImageBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserViewController.m; sourceTree = "<group>"; };
+		A3B2C69819CB3F55007198C4 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B2C65519C7155A007198C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2C65E19C7155A007198C4 /* CoreGraphics.framework in Frameworks */,
+				A3B2C66019C7155A007198C4 /* UIKit.framework in Frameworks */,
+				A3B2C65C19C7155A007198C4 /* Foundation.framework in Frameworks */,
+				F0A69FA45E7C47D897168065 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2C67619C7155A007198C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2C67B19C7155A007198C4 /* XCTest.framework in Frameworks */,
+				A3B2C67D19C7155A007198C4 /* UIKit.framework in Frameworks */,
+				A3B2C67C19C7155A007198C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B2C64F19C7155A007198C4 = {
+			isa = PBXGroup;
+			children = (
+				A3B2C66119C7155A007198C4 /* Puzzle */,
+				A3B2C68019C7155A007198C4 /* PuzzleTests */,
+				A3B2C65A19C7155A007198C4 /* Frameworks */,
+				A3B2C65919C7155A007198C4 /* Products */,
+				432FBF389E2B44D793620087 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B2C65919C7155A007198C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2C65819C7155A007198C4 /* Puzzle.app */,
+				A3B2C67919C7155A007198C4 /* PuzzleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B2C65A19C7155A007198C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2C65B19C7155A007198C4 /* Foundation.framework */,
+				A3B2C65D19C7155A007198C4 /* CoreGraphics.framework */,
+				A3B2C65F19C7155A007198C4 /* UIKit.framework */,
+				A3B2C67A19C7155A007198C4 /* XCTest.framework */,
+				96666B77CF8440E2B1499952 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3B2C66119C7155A007198C4 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2C66A19C7155A007198C4 /* AppDelegate.h */,
+				A3B2C66B19C7155A007198C4 /* AppDelegate.m */,
+				A3B2C66D19C7155A007198C4 /* Main.storyboard */,
+				A3B2C67019C7155A007198C4 /* ViewController.h */,
+				A3B1537219CD4E5400FFF4F7 /* LatticeModel.h */,
+				A3B1537319CD4E5400FFF4F7 /* LatticeModel.m */,
+				A3B2C67119C7155A007198C4 /* ViewController.m */,
+				A3B2C69019C74491007198C4 /* BoardIViewController.h */,
+				A3B2C69119C74491007198C4 /* BoardIViewController.m */,
+				A3B1537519CE789400FFF4F7 /* LatticeImageView.h */,
+				A3B1537619CE789400FFF4F7 /* LatticeImageView.m */,
+				A3B2C69519C89856007198C4 /* ImageBrowserViewController.h */,
+				A3B2C69619C89856007198C4 /* ImageBrowserViewController.m */,
+				A3B1537E19CECD4B00FFF4F7 /* HomeDelegate.h */,
+				A3B2C67319C7155A007198C4 /* Images.xcassets */,
+				A3B2C66219C7155A007198C4 /* Supporting Files */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		A3B2C66219C7155A007198C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2C69319C74750007198C4 /* dd.png */,
+				A3B2C69819CB3F55007198C4 /* pic1.png */,
+				A3B1537C19CEB1F300FFF4F7 /* pic4.png */,
+				A3B1537A19CEB1EB00FFF4F7 /* pic3.png */,
+				A3B1537819CEB1CF00FFF4F7 /* pic2.png */,
+				A3B2C66319C7155A007198C4 /* Puzzle-Info.plist */,
+				A3B2C66419C7155A007198C4 /* InfoPlist.strings */,
+				A3B2C66719C7155A007198C4 /* main.m */,
+				A3B2C66919C7155A007198C4 /* Puzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3B2C68019C7155A007198C4 /* PuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2C68619C7155A007198C4 /* PuzzleTests.m */,
+				A3B2C68119C7155A007198C4 /* Supporting Files */,
+			);
+			path = PuzzleTests;
+			sourceTree = "<group>";
+		};
+		A3B2C68119C7155A007198C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2C68219C7155A007198C4 /* PuzzleTests-Info.plist */,
+				A3B2C68319C7155A007198C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B2C65719C7155A007198C4 /* Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2C68A19C7155A007198C4 /* Build configuration list for PBXNativeTarget "Puzzle" */;
+			buildPhases = (
+				1E1F1155E5154C5CA235EBC4 /* Check Pods Manifest.lock */,
+				A3B2C65419C7155A007198C4 /* Sources */,
+				A3B2C65519C7155A007198C4 /* Frameworks */,
+				A3B2C65619C7155A007198C4 /* Resources */,
+				2A2FE1F0263A40A28CB19241 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzle;
+			productName = Puzzle;
+			productReference = A3B2C65819C7155A007198C4 /* Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3B2C67819C7155A007198C4 /* PuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2C68D19C7155A007198C4 /* Build configuration list for PBXNativeTarget "PuzzleTests" */;
+			buildPhases = (
+				A3B2C67519C7155A007198C4 /* Sources */,
+				A3B2C67619C7155A007198C4 /* Frameworks */,
+				A3B2C67719C7155A007198C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B2C67F19C7155A007198C4 /* PBXTargetDependency */,
+			);
+			name = PuzzleTests;
+			productName = PuzzleTests;
+			productReference = A3B2C67919C7155A007198C4 /* PuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B2C65019C7155A007198C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					A3B2C67819C7155A007198C4 = {
+						TestTargetID = A3B2C65719C7155A007198C4;
+					};
+				};
+			};
+			buildConfigurationList = A3B2C65319C7155A007198C4 /* Build configuration list for PBXProject "Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B2C64F19C7155A007198C4;
+			productRefGroup = A3B2C65919C7155A007198C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B2C65719C7155A007198C4 /* Puzzle */,
+				A3B2C67819C7155A007198C4 /* PuzzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B2C65619C7155A007198C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2C67419C7155A007198C4 /* Images.xcassets in Resources */,
+				A3B2C69919CB3F55007198C4 /* pic1.png in Resources */,
+				A3B2C69419C74750007198C4 /* dd.png in Resources */,
+				A3B1537D19CEB1F300FFF4F7 /* pic4.png in Resources */,
+				A3B2C66619C7155A007198C4 /* InfoPlist.strings in Resources */,
+				A3B2C66F19C7155A007198C4 /* Main.storyboard in Resources */,
+				A3B1537919CEB1CF00FFF4F7 /* pic2.png in Resources */,
+				A3B1537B19CEB1EB00FFF4F7 /* pic3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2C67719C7155A007198C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2C68519C7155A007198C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1F1155E5154C5CA235EBC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2FE1F0263A40A28CB19241 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B2C65419C7155A007198C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B1537719CE789400FFF4F7 /* LatticeImageView.m in Sources */,
+				A3B1537419CD4E5400FFF4F7 /* LatticeModel.m in Sources */,
+				A3B2C67219C7155A007198C4 /* ViewController.m in Sources */,
+				A3B2C69219C74491007198C4 /* BoardIViewController.m in Sources */,
+				A3B2C66C19C7155A007198C4 /* AppDelegate.m in Sources */,
+				A3B2C66819C7155A007198C4 /* main.m in Sources */,
+				A3B2C69719C89856007198C4 /* ImageBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2C67519C7155A007198C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B2C68719C7155A007198C4 /* PuzzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B2C67F19C7155A007198C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B2C65719C7155A007198C4 /* Puzzle */;
+			targetProxy = A3B2C67E19C7155A007198C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3B2C66419C7155A007198C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B2C66519C7155A007198C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3B2C66D19C7155A007198C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B2C66E19C7155A007198C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B2C68319C7155A007198C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B2C68419C7155A007198C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B2C68819C7155A007198C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3B2C68919C7155A007198C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B2C68B19C7155A007198C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432FBF389E2B44D793620087 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3B2C68C19C7155A007198C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432FBF389E2B44D793620087 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A3B2C68E19C7155A007198C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzle.app/Puzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PuzzleTests/PuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A3B2C68F19C7155A007198C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzle.app/Puzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "PuzzleTests/PuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B2C65319C7155A007198C4 /* Build configuration list for PBXProject "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2C68819C7155A007198C4 /* Debug */,
+				A3B2C68919C7155A007198C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2C68A19C7155A007198C4 /* Build configuration list for PBXNativeTarget "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2C68B19C7155A007198C4 /* Debug */,
+				A3B2C68C19C7155A007198C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2C68D19C7155A007198C4 /* Build configuration list for PBXNativeTarget "PuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2C68E19C7155A007198C4 /* Debug */,
+				A3B2C68F19C7155A007198C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B2C65019C7155A007198C4 /* Project object */;
+}
